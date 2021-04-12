@@ -1,4 +1,8 @@
-package com.rmit;
+package com.Italia;
+
+import com.Italia.deck.Deck;
+import com.Italia.game.Player;
+import com.Italia.game.Team;
 
 import java.util.Arrays;
 import java.util.Scanner;
@@ -123,7 +127,7 @@ public class Main {
         Player[] players = new Player[4];
         int i=0;
         for(int j=0; j<players.length; j++){
-            System.out.println("Enter name for Player :" );
+            System.out.println("Enter name for Player :\n" );
             players[j] = new Player(/*scanner.nextLine()*/"testingxx", deck.handCards(i, 5));
             //System.out.println(players[j].getName());
             players[j].printFirstFive();

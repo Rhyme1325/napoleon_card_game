@@ -1,4 +1,6 @@
-package com.rmit;
+package com.Italia.game;
+
+import com.Italia.deck.Card;
 
 public class Player {
     private String name;

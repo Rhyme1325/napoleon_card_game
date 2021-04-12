@@ -1,4 +1,6 @@
-package com.rmit;
+package com.Italia.game;
+
+import com.Italia.game.Player;
 
 public class  Team {
     private boolean isATeam;
